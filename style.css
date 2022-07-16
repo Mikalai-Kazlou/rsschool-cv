@@ -1,0 +1,83 @@
+.main-table {
+    width: 50%;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.main-table-left {
+    width: 30%;
+    vertical-align: top;
+}
+
+.main-table-right {
+    width: 70%;
+}
+
+.main-table-separator {
+    background-color: lightskyblue;
+}
+
+.section {
+    margin: 10px;
+}
+
+.section-header {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    
+    color: mediumblue;
+}
+
+.photo {
+    width: 70%;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.photo-container {
+    text-align: center;
+}
+
+.name {
+    margin-top: 140px;
+    margin-bottom: 5px;
+    
+    font-size: 48px;
+}
+
+.position {
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.company {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    
+    font-weight: bold;
+}
+
+.contact-type {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.paragraph-standart {
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.abap-reserved-word {
+    font-weight: bold;
+    color: darkblue;
+}
+
+footer {
+    text-align: center;
+}
