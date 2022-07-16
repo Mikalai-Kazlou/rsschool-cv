@@ -1,24 +1,25 @@
-body {
-    background-image: url("Background.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-.main {
+.main-table {
     width: 50%;
-    margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .main-table-left {
     width: 30%;
-
     vertical-align: top;
 }
 
 .main-table-right {
     width: 70%;
+}
 
+.main-table-separator {
+    background-color: lightskyblue;
 }
 
 .section {
@@ -28,6 +29,7 @@ body {
 .section-header {
     margin-top: 15px;
     margin-bottom: 5px;
+    
     color: mediumblue;
 }
 
@@ -45,6 +47,7 @@ body {
 .name {
     margin-top: 140px;
     margin-bottom: 5px;
+    
     font-size: 48px;
 }
 
@@ -54,9 +57,10 @@ body {
 }
 
 .company {
-    font-weight: bold;
     margin-top: 10px;
     margin-bottom: 5px;
+    
+    font-weight: bold;
 }
 
 .contact-type {
@@ -65,11 +69,15 @@ body {
 }
 
 .paragraph-standart {
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 2px;
 }
 
 .abap-reserved-word {
-    color: darkblue;
     font-weight: bold;
+    color: darkblue;
+}
+
+footer {
+    text-align: center;
 }

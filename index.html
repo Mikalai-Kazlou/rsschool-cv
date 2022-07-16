@@ -5,18 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="Logo.ico" type="image/ico" sizes="64x64">
+    <link rel="icon" href="images/logo.ico" type="image/ico" sizes="64x64">
     <link rel="stylesheet" href="style.css">
     <title>Mikalai Kazlou (CV)</title>
 </head>
 
 <body>
-    <main class="main">
+    <main>
         <table class="main-table">
             <tr>
+                <td class="main-table-separator"></td>
                 <td class="main-table-left">
                     <div class="photo-container">
-                        <img class="photo" src="Photo.png" alt="My photo">
+                        <img class="photo" src="images/photo.png" alt="My photo">
                     </div>
                     <section class="section">
                         <h3 class="section-header">ABOUT</h3>
@@ -40,6 +41,7 @@
                         mikalai_kazlou@epam.com
                     </section>
                 </td>
+                <td class="main-table-separator"></td>
                 <td class="main-table-right">
                     <section class="section">
                         <h1 class="name">MIKALAI KAZLOU</h1>
@@ -76,9 +78,7 @@
                             <li>Strong ABAP programming skills incl. ABAP OO and Design Patterns</li>
                             <li>Some experience in CDS, BOPF, OData-services</li>
                             <li>Good understanding of ABAP Test Cockpit, ABAP Performance Tuning, Runtime
-                                Analysis
-                                Tools
-                                and Techniques</li>
+                                Analysis Tools and Techniques</li>
                             <li>Knowledge of SAP systems functionality</li>
                             <li>Database management skills</li>
                         </ul>
@@ -91,43 +91,10 @@
                             </li>
                             <li>Exceptionally skilled in software related troubleshooting</li>
                             <li>Agile (Scrum) development experience with expert understanding of application
-                                and
-                                software
-                                architecture</li>
+                                and software architecture</li>
                             <li>Proven ability to work both independently and as a part of international project
                                 team</li>
                         </ul>
-                    </section>
-                    <section class="section">
-                        <h3 class="section-header">CODE EXAMPLES</h3>
-                        <code>
-                            <pre>
-<span class="abap-reserved-word">CLASS</span> ZCL_MK_ROBOT <span class="abap-reserved-word">IMPLEMENTATION</span>.
-* &lt;<span>SIGNATURE</span>&gt;-------------------------------------------------------------------+
-* | Instance Public Method ZCL_MK_ROBOT->CONSTRUCTOR
-* +-----------------------------------------------------------------------------+
-* | [--->] IV_NUM                         TYPE        I
-* +------------------------------------------------------------------&lt;<span>/SIGNATURE</span>&gt;
-<span class="abap-reserved-word">METHOD</span> constructor.
-    mv_num = iv_num.
-<span class="abap-reserved-word">ENDMETHOD</span>.
-
-* &lt;<span>SIGNATURE</span>&gt;-------------------------------------------------------------------+
-* | Instance Private Method ZCL_MK_ROBOT->START_WORK
-* +-----------------------------------------------------------------------------+
-* | [--->] EV_NUM                         LIKE
-* +------------------------------------------------------------------&lt;<span>/SIGNATURE</span>&gt;
-<span class="abap-reserved-word">METHOD</span> start_work.
-    <span class="abap-reserved-word">IF</span> mv_num = ev_num.
-        <span class="abap-reserved-word">DATA</span>(lo_rand) = cl_abap_random=>create( seed = cl_abap_random=>seed( ) ).
-        <span class="abap-reserved-word">DATA</span>(lv_work_time) = lo_rand->intinrange( low = 1 high = 10 ).
-
-        <span class="abap-reserved-word">RAISE EVENT</span> finish_work <span class="abap-reserved-word">EXPORTING</span> ev_num = mv_num
-                                          ev_work_time = lv_work_time.
-    <span class="abap-reserved-word">ENDIF</span>.
-<span class="abap-reserved-word">ENDMETHOD</span>.
-<span class="abap-reserved-word">ENDCLASS</span>.</pre>
-                    </code>
                     </section>
                     <section class="section">
                         <h3 class="section-header">TRAININGS</h3>
@@ -160,15 +127,50 @@
                     </section>
                     <section class="section">
                         <h3 class="section-header">LANGUAGES</h3>
-                        English: Intermediate (B1)
+                        <p class="paragraph-standart">English: Intermediate (B1)</p>
+                        <p class="paragraph-standart">Russian: Native</p>
+                    </section>
+                    <section class="section">
+                        <h3 class="section-header">CODE EXAMPLES</h3>
+                        <pre><code><span class="abap-reserved-word">CLASS</span> ZCL_MK_ROBOT <span class="abap-reserved-word">IMPLEMENTATION</span>.
+* &lt;<span>SIGNATURE</span>&gt;--------------------------------------------------------------------------+
+* | Instance Public Method ZCL_MK_ROBOT->CONSTRUCTOR
+* +------------------------------------------------------------------------------------+
+* | [--->] IV_NUM                         TYPE        I
+* +-------------------------------------------------------------------------&lt;<span>/SIGNATURE</span>&gt;
+<span class="abap-reserved-word">METHOD</span> constructor.
+    mv_num = iv_num.
+<span class="abap-reserved-word">ENDMETHOD</span>.
+
+* &lt;<span>SIGNATURE</span>&gt;--------------------------------------------------------------------------+
+* | Instance Private Method ZCL_MK_ROBOT->START_WORK
+* +------------------------------------------------------------------------------------+
+* | [--->] EV_NUM                         LIKE
+* +-------------------------------------------------------------------------&lt;<span>/SIGNATURE</span>&gt;
+<span class="abap-reserved-word">METHOD</span> start_work.
+    <span class="abap-reserved-word">IF</span> mv_num = ev_num.
+        <span class="abap-reserved-word">DATA</span>(lo_rand) = cl_abap_random=>create( seed = cl_abap_random=>seed( ) ).
+        <span class="abap-reserved-word">DATA</span>(lv_work_time) = lo_rand->intinrange( low = 1 high = 10 ).
+
+        <span class="abap-reserved-word">RAISE EVENT</span> finish_work <span class="abap-reserved-word">EXPORTING</span> ev_num = mv_num
+                                          ev_work_time = lv_work_time.
+    <span class="abap-reserved-word">ENDIF</span>.
+<span class="abap-reserved-word">ENDMETHOD</span>.
+<span class="abap-reserved-word">ENDCLASS</span>.</code></pre>
                     </section>
                 </td>
+                <td class="main-table-separator"></td>
             </tr>
         </table>
     </main>
 
     <footer>
-
+        <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RS School logo"
+                width="5%"></a>
+        <br><br>
+        <a href="https://github.com/mikalai-kazlou">GitHub</a>
+        <br>
+        <b>2022</b>
     </footer>
 </body>
 
