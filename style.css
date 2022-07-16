@@ -1,21 +1,75 @@
-.area-main {
+body {
+    background-image: url("Background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.main {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid #000;
 }
 
-.table-main {
-    width: 100%;
-    border: 1px solid #000;
+.main-table-left {
+    width: 30%;
+
+    vertical-align: top;
 }
 
-.table-main-left {
-    width: 35%;
-    border: 1px solid #000;
+.main-table-right {
+    width: 70%;
+
+}
+
+.section {
+    margin: 10px;
+}
+
+.section-header {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: mediumblue;
 }
 
 .photo {
     width: 70%;
     height: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.photo-container {
+    text-align: center;
+}
+
+.name {
+    margin-top: 140px;
+    margin-bottom: 5px;
+    font-size: 48px;
+}
+
+.position {
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.company {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.contact-type {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.paragraph-standart {
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+.abap-reserved-word {
+    color: darkblue;
+    font-weight: bold;
 }
