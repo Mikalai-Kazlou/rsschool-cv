@@ -8,9 +8,9 @@ A disciplined and analytical approach to development projects and the ability to
 I have love being able to travel to so many different places and make friends with people from so many different backgrounds.
 
 ## Contacts
-- [X] Mobile: +375 (44) 754-31-62
-- [ ] E-mail: mikalai_kazlou@epam.com
-- [ ] Discord: mikalai.kazlou#9434
+- Mobile: +375 (44) 754-31-62
+- E-mail: mikalai_kazlou@epam.com
+- Discord: mikalai.kazlou#9434
 
 ## Education
 2005 — 2006 
