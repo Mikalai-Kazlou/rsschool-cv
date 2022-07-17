@@ -1,0 +1,129 @@
+body {
+    background: #f7f9fa;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+pre {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+footer {
+    width: 870px;
+    margin-right: auto;
+    margin-left: auto;
+
+    text-align: center;
+}
+
+.main-table {
+    width: 50%;
+    margin-right: auto;
+    margin-bottom: 35px;
+    margin-left: auto;
+
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: white;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.main-table-left {
+    width: 30%;
+    vertical-align: top;
+}
+
+.main-table-right {
+    width: 70%;
+}
+
+.main-table-separator {
+    background-color: lightskyblue;
+}
+
+.section {
+    margin: 10px;
+}
+
+.section-header {
+    position: relative;
+    display: inline-block;
+
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+    color: #3264c8;
+}
+
+.section-header::after {
+    content: "";
+
+    position: absolute;
+    height: 1px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background: #3264c8;
+}
+
+.photo {
+    width: 70%;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.photo-container {
+    text-align: center;
+}
+
+.name {
+    margin-top: 140px;
+    margin-bottom: 5px;
+
+    font-size: 48px;
+}
+
+.position {
+    margin-top: 5px;
+    margin-bottom: 30px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.company {
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+    font-weight: bold;
+}
+
+.contact-type {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.paragraph-standart {
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.languages-container {
+    margin-top: 10px;
+}
+
+.abap-reserved-word {
+    font-weight: bold;
+    color: darkblue;
+}
+
+.rsschool-logo {
+    width: 100px;
+}
