@@ -9,6 +9,11 @@ ul {
 pre {
     margin-top: 10px;
     margin-bottom: 30px;
+    padding: 5px;
+    
+    background: #f6f8fa;
+    border-radius: 5px;
+    overflow: auto;
 }
 
 footer {
